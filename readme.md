@@ -2,8 +2,7 @@
 
 > Simply get the load time of your locally installed modules.
 
-<img src="https://raw.githubusercontent.com/mrozio13pl/timeload/main/assets/preview.png
-" width="50%" height="50%" alt="preview">
+<img src="https://raw.githubusercontent.com/mrozio13pl/timeload/main/assets/preview.png" width="50%" height="50%" alt="preview">
 
 ## Install
 
@@ -32,13 +31,13 @@ Basic example:
 ```bash
 $ timeload
 
-unwin | 241µs | 7.03%
-nice-try | 266µs | 7.75%
-has-flag | 280µs | 8.15%
-text-table | 367µs | 10.67%
-picocolors | 536µs | 15.57%
-pretty-ms | 562µs | 16.33%
-clear-module | 1ms | 34.51%
+unwin        | 241µs |  7.03%
+nice-try     | 266µs |  7.75%
+has-flag     | 280µs |  8.15%
+text-table   | 367µs | 10.67%
+picocolors   | 536µs | 15.57%
+pretty-ms    | 562µs | 16.33%
+clear-module | 1ms   | 34.51%
 Performed 5 runs.
 
 Average load time: 3ms 443µs 960ns
