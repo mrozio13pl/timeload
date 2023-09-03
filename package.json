@@ -1,0 +1,45 @@
+{
+  "name": "timeload",
+  "version": "0.0.1",
+  "description": "Get time required to load your locally installed modules",
+  "main": "lib/index.js",
+  "bin": {
+    "timeload": "./bin/timeload"
+  },
+  "repository": "mrozio13pl/timeload",
+  "author": "mrozio13pl",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "eslint . --fix"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "time",
+    "load",
+    "require",
+    "execute",
+    "import",
+    "module",
+    "cli"
+  ],
+  "dependencies": {
+    "clear-module": "^4.1.2",
+    "has-flag": "4.0.0",
+    "nice-try": "^3.0.1",
+    "picocolors": "^1.0.0",
+    "pretty-ms": "7.0.1",
+    "text-table": "^0.2.0",
+    "unwin": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}

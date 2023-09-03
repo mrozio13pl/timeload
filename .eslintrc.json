@@ -1,0 +1,16 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "standard",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "eol-last": "off",
+        "space-before-function-paren": "off",
+        "indent": ["error", 4]
+    }
+}
