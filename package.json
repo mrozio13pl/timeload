@@ -27,6 +27,7 @@
     "cli"
   ],
   "dependencies": {
+    "ansi-regex": "5.0.1",
     "clear-module": "^4.1.2",
     "has-flag": "4.0.0",
     "nice-try": "^3.0.1",
