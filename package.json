@@ -1,6 +1,6 @@
 {
   "name": "timeload",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get time required to load your locally installed modules",
   "main": "lib/index.js",
   "bin": {
